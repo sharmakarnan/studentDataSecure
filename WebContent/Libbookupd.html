@@ -1,0 +1,111 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<title>Library Updation Page</title>
+
+<!-- for-mobile-apps -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Employee Application Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css12/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css12/jquery-ui.css" />
+<script src="js5/jquery-1.12.0.min.js"></script>
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+</head>
+<style>
+.button {
+  background-color:	;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button5 {border-radius: 50%;}
+</style>
+<body>
+	<div class="main">
+		<h1>Book Details</h1>
+		<div class="w3_agile_main_grids">
+			<div class="agileits_w3layouts_main_grid">
+				<form action="Libbookreg.jsp" method="post" autocomplete="off">
+					<div class="agile_main_grid_left">
+						<div class="w3_agileits_main_grid_left_grid">
+							<h3>Register Here :</h3>
+							<input type="text" name="dept" placeholder="Name of Department" required="">
+							<input type="text" name="bookid" placeholder="Book ID" required="">
+							<input type="text" name="booktitle" placeholder="Book Title" required="">
+							<input type="text" name="authname" placeholder="Author Name" required="">
+							<input type="text" name="year" placeholder="Year of Publication" required="">
+							<input type="text" name="edi" placeholder="Edition" required="">
+							<input type="text" name="sub" placeholder="Subject" required="">
+							
+						</div>
+						<div class="w3_agileits_qualifications">
+							
+						</div>
+					</div>
+					
+					<!-- <div class="agile_main_grid_left">
+						<h3>Your Details :</h3>
+						<input type="text" name="FirstName" placeholder="First Name" required="">
+						<input type="text" name="LastName" placeholder="Last Name" required="">
+						<div class="agileits_main_grid_left_l_grids">
+							<div class="w3_agileits_main_grid_left_l">
+								<h2>Student Details<span class="wthree_color">*</span></h2>
+							</div>
+							<input type="text" name="regno" placeholder="Register Number" required="">
+							<input type="text" name="staffname" placeholder="Staff Name" required="">
+							<input type="text" name="duaration" placeholder="Time Duration" required="">
+							<div class="clear"> </div>
+						</div>
+					</div> -->
+					
+					<div class="clear"> </div> 
+					<input type="submit" value="Update">
+					
+                    <button class="button button5"><a href="index.html">
+                    Log out</a></button> 
+				</form>
+			</div>
+		</div>
+		<div class="agileits_copyright">
+			
+		</div>
+	</div>
+	<script src="js5/filedrag.js"></script>
+	<script type="text/javascript">
+		window.onload = function () {
+			document.getElementById("password1").onchange = validatePassword;
+			document.getElementById("password2").onchange = validatePassword;
+		}
+		function validatePassword(){
+			var pass2=document.getElementById("password2").value;
+			var pass1=document.getElementById("password1").value;
+			if(pass1!=pass2)
+				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+			else
+				document.getElementById("password2").setCustomValidity('');	 
+				//empty string means no validation error
+		}
+	</script>
+	<!-- start-date-piker-->
+		<script src="js5/jquery-ui.js"></script>
+		<script>
+			$(function() {
+			$( "#datepicker" ).datepicker();
+			});
+		</script>
+	<!-- //End-date-piker -->
+</body>
+</html>
